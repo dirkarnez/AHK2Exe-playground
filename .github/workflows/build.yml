@@ -19,7 +19,7 @@ jobs:
       - name: installer
         shell: cmd
         run: |
-          curl https://www.autohotkey.com/download/ahk-v2.exe -L -O &&^
+          curl https://github.com/AutoHotkey/Ahk2Exe/releases/download/Ahk2Exe1.1.37.02a0/Ahk2Exe1.1.37.02a0.zip -L -O &&^
           dir
           
       - name: uncompress 
