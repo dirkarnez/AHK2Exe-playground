@@ -30,7 +30,7 @@ jobs:
           
       - shell: cmd
         run: |
-          Ahk2Exe.exe /in YourScript.ahk /out ${{ github.event.repository.name }}.exe
+          Ahk2Exe.exe /in YourScript.ahk /out ${{ github.event.repository.name }}.exe /base Ahk2Exe.exe
 
       - name: Archive Release
         uses: thedoctor0/zip-release@master
